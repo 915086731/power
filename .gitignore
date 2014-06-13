@@ -1,0 +1,12 @@
+*
+!*/
+!*.y
+!*.lex
+!*.c
+!*.h
+!Makefile
+!doc/*.note
+!.paths*
+libparam/libparam.tab.h
+libparam/libparam.tab.c
+libparam/lex.libparam.c
