@@ -10,3 +10,10 @@
 libparam/libparam.tab.h
 libparam/libparam.tab.c
 libparam/lex.libparam.c
+src/modules/*.c
+src/modules/*.h
+memsmodel/modules/*.c
+memsmodel/modules/*.h
+libparam/include/*
+diskmodel/modules/*.c
+diskmodel/modules/*.h

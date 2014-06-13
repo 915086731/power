@@ -40,7 +40,7 @@ CFLAGS = -g -I. $(LIBPARAM_CFLAGS) $(LIBDDBG_CFLAGS) -D_DM_SOURCE -Wall -Wshadow
 CXXFLAGS = -g -I. $(LIBPARAM_CFLAGS) $(LIBDDBG_CFLAGS) -D_DM_SOURCE -Wall -Wno-unused  -MD
 
 CC-DEP = $(CC)
-CP = cp -p
+CP = cp -f
 all: modules libdiskmodel.a
 	$(MAKE) -C tests
 
