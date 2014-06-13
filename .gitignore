@@ -7,6 +7,8 @@
 !Makefile
 !doc/*.note
 !.paths*
+*.a
+libddbg/include/*
 libparam/libparam.tab.h
 libparam/libparam.tab.c
 libparam/lex.libparam.c
